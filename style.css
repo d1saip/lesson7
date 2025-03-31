@@ -29,12 +29,32 @@
     background-color: red;
     color: white;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 40px;
     padding: 5px 10px;
     position: absolute;
 }
+.new{
+    background-color:green;
+    color: white;
+    position: absolute;
+    padding: 5px 10px;
+    top: 40px;
+    left: 10px;
+    border-radius: 40px;
+    font-size: 14px;
+}
+.perc{
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    position: absolute;
+    padding: 3px 10px;
+    bottom: 260px;
+    left: 10px;
+    font-size: 14px;
+}
 .sushi-img{
-    width: 100%;
+    max-width: 100%;
     border-radius: 10px;
 }
 .block{
@@ -43,6 +63,8 @@
 .old-sale{
     color: gray;
     text-decoration: line-through;
+    margin-left: 50px;
+    font-size: 30px;
 }
 .new-price{
     font-size: 24px;
